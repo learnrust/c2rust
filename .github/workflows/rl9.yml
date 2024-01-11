@@ -14,7 +14,7 @@ on:
 jobs:
   rpmbuild:
       name: Build using Rocky Linux
-      needs: distbuild
+#      needs: distbuild
       runs-on: ubuntu-latest
       container:
         image: rockylinux/rockylinux
