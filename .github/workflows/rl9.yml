@@ -20,7 +20,7 @@ jobs:
         image: rockylinux/rockylinux
         options: --privileged
       steps:
-        - name:dnf install -y llvm14-devel
+        - name: llvm14-devel
           run: dnf install -y llvm14-devel
 
 
